@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patentscribe"
+version = "1.0.0"
+description = "中国专利交底书与权利要求结构化撰写、自检与多格式导出工具（零依赖、离线、确定性规则引擎）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "PatentScribe contributors" }]
+keywords = [
+    "patent", "china-patent", "cnipa", "disclosure", "claims",
+    "专利", "技术交底书", "权利要求", "形式审查",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business",
+    "Topic :: Text Processing :: Markup",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+patentscribe = "patentscribe.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gitstq/PatentScribe"
+Repository = "https://github.com/gitstq/PatentScribe"
+Issues = "https://github.com/gitstq/PatentScribe/issues"
+"Chinese README" = "https://github.com/gitstq/PatentScribe/blob/main/README.md"
+"English README" = "https://github.com/gitstq/PatentScribe/blob/main/README.en-US.md"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

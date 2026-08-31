@@ -1,0 +1,6 @@
+# PatentScribe 仅使用 Python 标准库，运行时零第三方依赖。
+# Runtime: zero third-party dependencies — Python standard library only.
+#
+# 如需以标准方式构建分发包（wheel/sdist），构建工具可选安装：
+#   pip install build
+# 或直接使用零依赖构建脚本：python scripts/build.py
