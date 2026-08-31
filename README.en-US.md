@@ -16,6 +16,10 @@
 
 ---
 
+### ⬇️ Latest release: [**v1.0.0 (Release page)**](https://github.com/gitstq/PatentScribe/releases/tag/v1.0.0) — wheel / sdist assets with SHA256 checksums, fully offline install
+
+---
+
 ## 🎉 Introduction
 
 **PatentScribe** is a toolkit for **Chinese patent (CNIPA-style) invention disclosures**: it helps you structure a disclosure document (`技术交底书`), self-check claims against formal requirements, and export deliverables in multiple formats. It requires **no LLM, no network access, and no third-party packages** — it runs on the Python standard library alone, so every result is **deterministic, reproducible, and auditable**.
